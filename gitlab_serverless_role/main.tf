@@ -43,6 +43,7 @@ resource "aws_iam_role_policy" "this" {
         "s3:DeleteObject",
         "lambda:Get*",
         "lambda:List*",
+        "lambda:PublishVersion",
         "lambda:UpdateFunctionCode",
         "lambda:UpdateFunctionConfiguration",
         "lambda:InvokeFunction",
